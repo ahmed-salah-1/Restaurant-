@@ -16,7 +16,11 @@
     <HBox alignment="CENTER_LEFT" spacing="10"> 
         <Label style="-fx-font-weight: bold;" text="Sort By:" />
         <ComboBox fx:id="companyComboBox" prefWidth="150.0" />
+<<<<<<< HEAD
         <TextField fx:id="companySearchField" prefWidth="300" promptText="Search companies..." />
+=======
+        <TextField fx:id="companySearchField" prefWidth="300" promptText="Search products..." />
+>>>>>>> master
         <Button fx:id="companySearchButton" onAction="#Search" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white;" text="Search">
          <graphic>
             <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
@@ -25,8 +29,13 @@
                </image>
             </ImageView>
          </graphic></Button>
+<<<<<<< HEAD
       <HBox prefHeight="31.0" prefWidth="425.0" />
       <Button fx:id="companySearchButton1" onAction="#BuyOutdoor" prefHeight="38.0" prefWidth="154.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white;" text="Check Out">
+=======
+      <HBox prefHeight="31.0" prefWidth="428.0" />
+      <Button fx:id="BuyButton" onAction="#BuyOutdoor" prefHeight="31.0" prefWidth="138.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white;" text="Check Out">
+>>>>>>> master
          <graphic>
             <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -37,7 +46,11 @@
       </Button>
     </HBox>
     
+<<<<<<< HEAD
     <TableView fx:id="companyTable" prefHeight="674.0" prefWidth="1287.0">
+=======
+    <TableView fx:id="IndoorTable" prefHeight="674.0" prefWidth="1287.0">
+>>>>>>> master
         <columns>
             <TableColumn fx:id="ActionsColumn" prefWidth="84.00003069639206" text="Actions" />
             <TableColumn fx:id="IdColumn" minWidth="-1.0" prefWidth="116.79998779296875" text="ID" />

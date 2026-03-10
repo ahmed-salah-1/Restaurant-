@@ -25,3 +25,7 @@
         <Button onAction="#handleAddUser" prefHeight="33.0" prefWidth="71.0" style="-fx-background-color: #5cb85c; -fx-text-fill: white;" text="Add User" />
     </HBox>
 </VBox>
+<<<<<<< HEAD
+=======
+
+>>>>>>> master

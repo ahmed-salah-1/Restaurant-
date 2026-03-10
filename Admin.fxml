@@ -12,14 +12,22 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
 <BorderPane prefHeight="875.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication23.AdminController">
+=======
+<BorderPane prefHeight="802.0" prefWidth="1530.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication23.AdminController">
+>>>>>>> master
     <top>
         <HBox spacing="30.0" style="-fx-background-color: #0f6a6b; -fx-padding: 15;">
             <Label alignment="CENTER" prefHeight="54.0" prefWidth="371.0" text="Admin Dashboard" textFill="WHITE">
             <font>
                <Font name="Arial Bold" size="36.0" />
             </font></Label>
+<<<<<<< HEAD
             <Region prefHeight="54.0" prefWidth="856.0" HBox.hgrow="ALWAYS" />
+=======
+            <Region prefHeight="54.0" prefWidth="555.0" HBox.hgrow="ALWAYS" />
+>>>>>>> master
          <Button alignment="BOTTOM_LEFT" onAction="#logout" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: #d9534f; -fx-text-fill: white;" text="Logout">
             <font>
                <Font size="15.0" />
@@ -52,7 +60,11 @@
     
     <left>
         <VBox style="-fx-background-color: #f0f0f0; -fx-spacing: 30; -fx-padding: 15;">
+<<<<<<< HEAD
             <Button onAction="#showCompanyReports" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white; -fx-pref-width: 200;" text="Company Reports">
+=======
+            <Button onAction="#showReports" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white; -fx-pref-width: 200;" text="Company Reports">
+>>>>>>> master
             <font>
                <Font size="19.0" />
             </font></Button>
@@ -60,11 +72,15 @@
             <font>
                <Font size="19.0" />
             </font></Button>
+<<<<<<< HEAD
             <Button onAction="#showCustomerReports" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white; -fx-pref-width: 200;" text="Customer Reports">
             <font>
                <Font size="19.0" />
             </font></Button>
             <Button onAction="#loadBillReports" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white; -fx-pref-width: 200;" text="Bill Reports">
+=======
+            <Button onAction="#showBillReports" prefHeight="70.0" prefWidth="150.0" style="-fx-background-color: #0f6a6b; -fx-text-fill: white; -fx-pref-width: 200;" text="Bill Reports">
+>>>>>>> master
             <font>
                <Font size="19.0" />
             </font></Button>
@@ -72,7 +88,11 @@
     </left>
     
     <center>
+<<<<<<< HEAD
         <StackPane fx:id="contentPane" prefHeight="800.0" prefWidth="1320.0">
+=======
+        <StackPane fx:id="contentPane" prefHeight="614.0" prefWidth="1320.0">
+>>>>>>> master
          <children>
             <Label alignment="CENTER" prefHeight="114.0" prefWidth="252.0" text="Nothing to show here" textFill="#00000047">
                <font>
@@ -85,6 +105,9 @@
          </children></StackPane>
     </center>
 </BorderPane>
+<<<<<<< HEAD
 
 
 //hi
+=======
+>>>>>>> master

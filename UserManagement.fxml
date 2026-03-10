@@ -48,6 +48,7 @@
       </padding>
     </HBox>
     
+<<<<<<< HEAD
           <TableView fx:id="usersTable" prefHeight="677.0" prefWidth="1242.0">
         <columns>
             <TableColumn fx:id="idColumn" prefWidth="100.0" text="ID" />
@@ -55,6 +56,16 @@
             <TableColumn fx:id="roleColumn" prefWidth="150.0" text="Role" />
             <TableColumn fx:id="emailColumn" prefWidth="300.0" text="Email" />
             <TableColumn fx:id="actionsColumn" prefWidth="500.0" />
+=======
+          <TableView fx:id="usersTable" prefHeight="624.0" prefWidth="1235.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="88.00000017881393" text="ID" />
+            <TableColumn fx:id="actionsColumn" prefWidth="386.3999938964844" text="Full Name" />
+            <TableColumn fx:id="roleColumn" prefWidth="144.800048828125" text="Role" />
+            <TableColumn fx:id="emailColumn" minWidth="0.0" prefWidth="139.199951171875" text="Phone Number" />
+            <TableColumn fx:id="usernameColumn" prefWidth="197.5999755859375" text="Username" />
+         <TableColumn fx:id="emailColumn1" minWidth="0.0" prefWidth="366.4000244140625" text="Email" />
+>>>>>>> master
         </columns>
     </TableView>
     

@@ -45,7 +45,11 @@ public class LoginController {
 
     }
 
+<<<<<<< HEAD
     private void loadCompanyInterface() {
+=======
+    private void loadReceptionistInterface() {
+>>>>>>> master
         
     }
 
